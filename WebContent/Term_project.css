@@ -1,0 +1,142 @@
+@charset "EUC-KR";
+body{ /*웹 페이지 배경색 */
+  background-color:#FFFAF0;
+}
+#marvel{
+  width:250px;
+  height: 120px;
+  display: block;
+  margin-left:500px;
+}
+
+
+.header{ /*레이아웃 헤더 */
+  text-align: center;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+._introduction{ /*헤더의 INTRODUCTION부분 스타일 */
+  position: relative;
+  top:60px;
+  width: 550px;
+  height: 80px;
+  background: #DC143C;
+  border:1px solid black;
+  margin-left: 263px;
+  border: 2px solid black;
+
+
+
+}
+.container{ /*레이아웃의 container 부분 스타일 */
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 40px;
+
+}
+
+.nav{ /*container의 left side */
+  position: relative;
+  float: left;
+}
+.m_act{ /*container의 left side에 있는 목록들 스타일  */
+  position: relative;
+  width: 550px;
+  height: 80px;
+  background: #DC143C;
+  border:2px solid black;
+  margin-left: 263px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+.content{ /*container의 right side */
+   position: relative;
+   margin-left: 10px;
+
+}
+#marvel_gif{ /*marvel_gif 스타일 */
+  position: fixed;
+  right:190px;
+  top:200px;
+  width: 230px;
+  height: 420px;
+}
+#ba_content{
+  position: relative;
+  z-index: 2;
+  width:500px;
+  height: 500px;
+  visibility: hidden;
+  background-color:transparent;
+
+}
+
+.navbar {
+    position: absolute;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width:70%;
+    top:140px;
+    left:250px;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 13px 25px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+
+}
